@@ -555,6 +555,9 @@ def get_currency(ticker, info):
 
 # ==================== MAIN APP ====================
 def main():
+    # Logo
+    st.image("https://raw.githubusercontent.com/faridridwan1378/varsha-catalog/main/gambar buah/gua.png", width=180)
+
     st.markdown('<h1 class="main-header">📈 Stock Scalping Analyzer</h1>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; color: gray;">Technical + Fundamental Analysis</p>', unsafe_allow_html=True)
     
